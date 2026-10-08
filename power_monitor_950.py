@@ -65,30 +65,30 @@ import paramiko
 # ==================== 配置区域 ====================
 
 NODES = [
-    ["P","141.61.54.220", "root", "xxx",
-     "141.61.54.217", "Administrator", "xxx",
-     "141.61.54.193", "Administrator", "xxx"],  # TODO: 1st BMC 凭据
-    ["P","141.61.54.216", "root", "ydjc0904",
-     "141.61.54.213", "Administrator", "xxx",
-     "141.61.54.196", "Administrator", "xxx"],  # TODO: 2nd BMC 凭据
-    ["D","141.61.54.212", "root", "xxx",
-     "141.61.54.209", "Administrator", "xxx",
-     "141.61.54.202", "Administrator", "xxx"],  # TODO: 3rd BMC 凭据
-    ["D","141.61.54.208", "root", "xxx",
-     "141.61.54.205", "Administrator", "xxx",
-     "141.61.54.199", "Administrator", "xxx"],  # TODO: 4th BMC 凭据
-    ["D","141.61.54.180", "root", "xxx",
-     "141.61.54.177", "Administrator", "xxx",
-     "141.61.54.190", "Administrator", "xxx"],  # TODO: 5th BMC 凭据
-    ["D","141.61.54.176", "root", "xxx",
-     "141.61.54.173", "Administrator", "xxx",
-     "141.61.54.187", "Administrator", "xxx"],  # TODO: 6th BMC 凭据
-    ["D","141.61.54.172", "root", "xxx",
-     "141.61.54.169", "Administrator", "xxx",
-     "141.61.54.184", "Administrator", "xxx"],  # TODO: 7th BMC 凭据
-    ["D","141.61.54.168", "root", "xxx",
-     "141.61.54.165", "Administrator", "xxx",
-     "141.61.54.181", "Administrator", "xxx"],  # TODO: 8th BMC 凭据 
+    ["P","141.61.54.220", "root", "os_password",
+     "141.61.54.217", "root", "cpu_bmc_password",
+     "141.61.54.193", "root", "npu_bmc_password"],  # TODO: 1st BMC 凭据
+    ["P","141.61.54.216", "root", "os_password",
+     "141.61.54.213", "root", "cpu_bmc_password",
+     "141.61.54.196", "root", "npu_bmc_password"],  # TODO: 2nd BMC 凭据
+    ["D","141.61.54.212", "root", "os_password",
+     "141.61.54.209", "root", "cpu_bmc_password",
+     "141.61.54.202", "root", "npu_bmc_password"],  # TODO: 3rd BMC 凭据
+    ["D","141.61.54.208", "root", "os_password",
+     "141.61.54.205", "root", "cpu_bmc_password",
+     "141.61.54.199", "root", "npu_bmc_password"],  # TODO: 4th BMC 凭据
+    ["D","141.61.54.180", "root", "os_password",
+     "141.61.54.177", "root", "cpu_bmc_password",
+     "141.61.54.190", "root", "npu_bmc_password"],  # TODO: 5th BMC 凭据
+    ["D","141.61.54.176", "root", "os_password",
+     "141.61.54.173", "root", "cpu_bmc_password",
+     "141.61.54.187", "root", "npu_bmc_password"],  # TODO: 6th BMC 凭据
+    ["D","141.61.54.172", "root", "os_password",
+     "141.61.54.169", "root", "cpu_bmc_password",
+     "141.61.54.184", "root", "npu_bmc_password"],  # TODO: 7th BMC 凭据
+    ["D","141.61.54.168", "root", "os_password",
+     "141.61.54.165", "root", "cpu_bmc_password",
+     "141.61.54.181", "root", "npu_bmc_password"],  # TODO: 8th BMC 凭据 
 ]
 
 MODEL = "glm51"
