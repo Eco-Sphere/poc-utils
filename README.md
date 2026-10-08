@@ -53,13 +53,13 @@ ls
 | role | P 代表主节点，D 代表数据节点，自己随便标记 |
 | os_ip | 服务器操作系统 ssh IP，如果没有填 None |
 | os_user | ssh 账号，集群一般是 root |
-| os_pwd | ssh 密码，**从环境变量读取，不要写死脚本** |
+| os_pwd | ssh 密码 |
 | cpu_bmc_ip | CPU 侧 BMC 管理 IP；没有填`None`自动跳过 BMC 功耗采集 |
 | cpu_bmc_user | BMC 登录账号 |
-| cpu_bmc_pwd | BMC 密码，环境变量读取 |
+| cpu_bmc_pwd | BMC 密码 |
 | npu_bmc_ip | NPU 侧 BMC 管理 IP；没有填`None`跳过采集 |
 | npu_bmc_user | NPU BMC 账号 |
-| npu_bmc_pwd | NPU BMC 密码，环境变量读取 |
+| npu_bmc_pwd | NPU BMC 密码 |
 
 > 
 > 如果某台机器没有 NPU‑BMC，直接写`None`，脚本会自动跳过该 BMC 功耗采集。
